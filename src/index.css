@@ -8,26 +8,26 @@ All colors MUST be HSL for consistency and theme support.
 
 @layer base {
   :root {
-    /* Premium Background System */
-    --background: 240 10% 3.9%;
-    --foreground: 0 0% 98%;
-    --surface: 240 10% 6%;
-    --surface-elevated: 240 10% 8%;
+    /* Lighter, More Human Background System */
+    --background: 210 20% 98%;
+    --foreground: 220 14% 11%;
+    --surface: 210 20% 96%;
+    --surface-elevated: 210 20% 94%;
 
-    /* Card System */
-    --card: 240 10% 6%;
-    --card-foreground: 0 0% 98%;
-    --card-border: 240 5% 15%;
+    /* Light Card System */
+    --card: 210 20% 96%;
+    --card-foreground: 220 14% 11%;
+    --card-border: 210 20% 88%;
 
-    /* Popover System */
-    --popover: 240 10% 6%;
-    --popover-foreground: 0 0% 98%;
+    /* Light Popover System */
+    --popover: 210 20% 96%;
+    --popover-foreground: 220 14% 11%;
 
-    /* Premium Blue Primary System */
-    --primary: 217 91% 60%;
-    --primary-foreground: 0 0% 98%;
-    --primary-hover: 217 91% 55%;
-    --primary-light: 217 91% 70%;
+    /* Warmer Blue Primary System */
+    --primary: 212 95% 56%;
+    --primary-foreground: 210 20% 98%;
+    --primary-hover: 212 95% 51%;
+    --primary-light: 212 95% 66%;
 
     /* WhatsApp Green */
     --whatsapp: 142 76% 36%;
@@ -39,18 +39,18 @@ All colors MUST be HSL for consistency and theme support.
     --telegram-foreground: 0 0% 98%;
     --telegram-hover: 207 90% 49%;
 
-    /* Elegant Secondary System */
-    --secondary: 240 5% 15%;
-    --secondary-foreground: 0 0% 98%;
-    --secondary-hover: 240 5% 20%;
+    /* Softer Secondary System */
+    --secondary: 210 20% 92%;
+    --secondary-foreground: 220 14% 11%;
+    --secondary-hover: 210 20% 88%;
 
-    /* Muted System */
-    --muted: 240 5% 15%;
-    --muted-foreground: 240 5% 65%;
+    /* Human Muted System */
+    --muted: 210 20% 92%;
+    --muted-foreground: 220 9% 46%;
 
-    /* Accent System */
-    --accent: 240 5% 15%;
-    --accent-foreground: 0 0% 98%;
+    /* Warm Accent System */
+    --accent: 210 20% 92%;
+    --accent-foreground: 220 14% 11%;
 
     /* Status Colors */
     --destructive: 0 84% 60%;
@@ -60,20 +60,20 @@ All colors MUST be HSL for consistency and theme support.
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 98%;
 
-    /* Border System */
-    --border: 240 5% 15%;
-    --input: 240 5% 15%;
-    --ring: 217 91% 60%;
+    /* Light Border System */
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 212 95% 56%;
 
-    /* Glass Effects */
-    --glass-bg: 240 10% 6% / 0.8;
-    --glass-border: 240 5% 25% / 0.2;
-    --glass-shadow: 0 8px 32px 0 hsl(240 10% 3% / 0.37);
+    /* Soft Glass Effects */
+    --glass-bg: 210 20% 96% / 0.8;
+    --glass-border: 210 20% 88% / 0.6;
+    --glass-shadow: 0 8px 32px 0 hsl(220 14% 11% / 0.1);
 
-    /* Premium Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(217 91% 70%));
-    --gradient-surface: linear-gradient(135deg, hsl(240 10% 6%), hsl(240 10% 8%));
-    --gradient-hero: linear-gradient(135deg, hsl(240 10% 3.9%) 0%, hsl(240 15% 8%) 50%, hsl(240 10% 3.9%) 100%);
+    /* Warm Human Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(212 95% 56%), hsl(212 95% 66%));
+    --gradient-surface: linear-gradient(135deg, hsl(210 20% 96%), hsl(210 20% 94%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 20% 98%) 0%, hsl(210 25% 94%) 50%, hsl(210 20% 98%) 100%);
 
     /* Spacing System */
     --spacing-xs: 0.5rem;
