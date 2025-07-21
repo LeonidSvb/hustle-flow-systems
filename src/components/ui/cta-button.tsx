@@ -43,12 +43,12 @@ export function CTAButton({
   };
 
   const getButtonStyles = () => {
-    const baseStyles = "font-semibold transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-background";
+    const baseStyles = "font-semibold transition-all duration-400 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-offset-background";
     
     const sizeStyles = {
-      sm: "px-4 py-2 text-sm",
-      md: "px-6 py-3 text-base",
-      lg: "px-8 py-4 text-lg"
+      sm: "px-3 py-1.5 text-sm",
+      md: "px-4 py-2 text-base",
+      lg: "px-5 py-2.5 text-lg"
     };
 
     switch (type) {
